@@ -1,0 +1,16 @@
+div.gopher{
+   position:relative;
+}
+img.speaker{
+  position:absolute;
+  z-index:110;
+  left:2%;
+  top:16%;
+}
+.rotated {
+  transform: rotate(10deg);
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -moz-transform: rotate(10deg); /* Firefox */
+  -webkit-transform: rotate(10deg); /* Safari and Chrome */
+  -o-transform: rotate(10deg); /* Opera */
+}
